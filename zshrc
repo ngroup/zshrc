@@ -43,3 +43,4 @@ zle-line-init() {
     zle autosuggest-start
 }
 zle -N zle-line-init
+export PATH="/usr/local/sbin:$PATH"
